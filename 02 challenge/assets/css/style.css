@@ -1,20 +1,34 @@
-/*********************
-*Last update: 11/30/2021
-*Author: Brandon Spencer
-*Twitter:Brandonespencer
-***********************/
+/* Table of contents
 
-/* *Selects all elements*/
+1.) global style
+2.) header style block
+3.) paragraph section 
+4.) style block
+5.) benefits style block
+6.) search style block
+7.) footer style block 
+
+*/
+
+
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
+/* 1.) Global style*/
+
 body {
     background-color: #d9dcd6;
 }
 
+
+
+
+/*----------2.) start of header style block----------*/
 .header {
     padding: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -48,12 +62,14 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/*----------end of header style block---------*/
+
+
 
 
 a{
     color: rgb(204, 204, 204);
     transition: all .3s linear;
-
 
 }
 a:hover {
@@ -61,10 +77,19 @@ a:hover {
      
 }
 
+
+/*----------3.) start of paragraph section----------*/
 p {
     font-size: 16px;
 }
 
+/*----------end of paragraph section----------*/
+
+
+
+
+
+/*----------4.) start of style block----------*/
 .hero {
     height:800px;
     width: 100%;
@@ -89,7 +114,12 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+/*----------end of style block----------*/
 
+
+
+
+/*----------5.) start of benefits style block----------*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -149,6 +179,14 @@ p {
     max-width: 150px;
 }
 
+/*----------end of benefits style block----------*/
+
+
+
+
+
+/*----------6.) start of search style block----------*/
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 20px;
@@ -203,6 +241,14 @@ p {
     font-size: 36px;
 }
 
+
+/*----------end of search style block----------*/
+
+
+
+
+
+/*----------7.) start of footer style----------*/
 .footer {
     padding: 30px;
     clear: both;
@@ -213,3 +259,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*----------end of footer style----------*/
